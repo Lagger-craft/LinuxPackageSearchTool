@@ -5,6 +5,7 @@ Herramienta simple y eficiente para buscar paquetes instalados en tu sistema Lin
 ## 📋 ¿Qué hace?
 
 Esta herramienta te permite:
+
 - Buscar paquetes instalados en tu sistema Arch Linux
 - Realizar búsquedas case-insensitive (no distingue mayúsculas/minúsculas)
 - Ver los primeros 10 paquetes si no especificas una búsqueda
@@ -19,17 +20,20 @@ Esta herramienta te permite:
 ## 🚀 Instalación y Uso
 
 ### 1. Clonar el repositorio
+
 ```bash
-git clone <URL-del-repositorio>
+git clone https://github.com/Lagger-craft/LinuxPackageSearchTool.git
 cd searchAppInstalled-Linux
 ```
 
 ### 2. Dar permisos de ejecución (opcional)
+
 ```bash
 chmod +x main.py
 ```
 
 ### 3. Ejecutar la herramienta
+
 ```bash
 # Opción 1: Con Python
 python3 main.py
@@ -41,6 +45,7 @@ python3 main.py
 ## 💡 Ejemplos de Uso
 
 ### Buscar un paquete específico
+
 ```
 Filtra el paquete para saber si esta instalado: vivaldi
 
@@ -49,8 +54,9 @@ Filtra el paquete para saber si esta instalado: vivaldi
 ```
 
 ### Ver primeros paquetes (búsqueda vacía)
+
 ```
-Filtra el paquete para saber si esta instalado: 
+Filtra el paquete para saber si esta instalado:
 
 📋 Primeros 10 paquetes instalados:
  1. a52dec 0.8.0-2.1
@@ -60,6 +66,7 @@ Filtra el paquete para saber si esta instalado:
 ```
 
 ### Búsqueda case-insensitive
+
 ```
 Filtra el paquete para saber si esta instalado: VIVALDI
 
@@ -87,3 +94,4 @@ Filtra el paquete para saber si esta instalado: VIVALDI
 ---
 
 **Creado con ❤️ para facilitar la gestión de paquetes en Linux**
+
