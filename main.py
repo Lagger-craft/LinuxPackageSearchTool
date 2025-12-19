@@ -122,7 +122,7 @@ class PackageSearchTool:
         c = self.theme
         print(f"\n{c.format_title('--- 🔍 BÚSQUEDA CON YAY (AUR) ---')}")
 
-        resultado = subprocess.run(["yay", "-Q"], capture_output=True, text=True)
+        resultado = subprocess.run(["yay", "-Qm"], capture_output=True, text=True)
 
         if resultado.returncode != 0:
             print(c.format_error("❌ Error al ejecutar yay -Q"))
@@ -155,7 +155,7 @@ class PackageSearchTool:
         c = self.theme
         print(f"\n{c.format_title('--- 🔍 BÚSQUEDA CON PARU (AUR) ---')}")
 
-        resultado = subprocess.run(["paru", "-Q"], capture_output=True, text=True)
+        resultado = subprocess.run(["paru", "-Qmq"], capture_output=True, text=True)
 
         if resultado.returncode != 0:
             print(c.format_error("❌ Error al ejecutar paru -Q"))
