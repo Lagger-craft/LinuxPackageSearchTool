@@ -329,7 +329,18 @@ searchAppInstalled-Linux/
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT - mirá el archivo [LICENSE](LICENSE) para detalles.
+Este proyecto está bajo la **GNU General Public License v2.0** - mirá el archivo [LICENSE](LICENSE) para detalles.
+
+### ¿Qué significa GPLv2?
+
+- ✅ **Software libre**: Podés usar, modificar y distribuir el código
+- ✅ **Copyleft**: Cualquier modificación debe ser liberada bajo la misma licencia
+- ✅ **Source code obligatorio**: Si distribuís el programa, tenés que incluir el código fuente
+- ✅ **Protección de libertades**: Garantiza que el software siga siendo libre para todos
+
+### Resumen rápido
+
+> Este programa es software libre: podés redistribuirlo y/o modificarlo bajo los términos de la GNU General Public License como publicada por la Free Software Foundation, ya sea la versión 2 de la Licencia, o (a tu elección) cualquier versión posterior.
 
 ---
 
